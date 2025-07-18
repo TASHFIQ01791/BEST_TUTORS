@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="shortcut icon" href="images/services.avif" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .section-contact {
+        text-align: center;
+      }
+
+      .course-container-div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4rem;
+        justify-content: center;
+      }
+
+      .course-container-div input,
+      .course-container-div textarea {
+        width: 100%;
+        max-width: 500px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 0.5rem;
+      }
+
+      .course-container-div img {
+        width: 100%;
+      }
+      button {
+        outline: none;
+        border: none;
+        color: white;
+        background-color: orange;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!--  ----- start nav bar -----   -->
+    <header class="section-navbar">
+      <div class="container">
+        <!--  --- left side nav bar ---  -->
+        <div class="logo">
+          <a href="/index.html"
+            ><img
+              src="images/logofinal.png"
+              alt="business logo"
+              width="200"
+              height="auto"
+          /></a>
+        </div>
+        <!--  --- right side nav bar ---  -->
+        <nav class="navbar">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--  ----- start main section -----   -->
+
+    <!--  ----- Start Course section -----   -->
+    <section class="section-contact">
+      <div class="container">
+        <h2 class="section-common-heading">Contact Us</h2>
+        <p class="section-common-subheading">
+          Discover a variety of courses across different categories.
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="course-container-div">
+          <div>
+            <!-- email  -->
+            <div>
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your Email "
+              />
+            </div>
+            <!-- subject  -->
+            <div>
+              <input
+                type="text"
+                name="subject"
+                placeholder="Application for ... "
+              />
+            </div>
+            <!-- message  -->
+            <div>
+              <textarea name="" rows="4" cols="auto"></textarea>
+            </div>
+            <button>send</button>
+          </div>
+          <div>
+            <img src="images/contact.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  ----- End Course section -----   -->
+
+    <!--  -----  start Footer section -----   -->
+    <footer>
+      <div class="container grid grid-four--cols">
+        <!-- footeer 1  -->
+        <div class="footer-1">
+          <h3 class="footer-heading">Best Tutors</h3>
+          <p>Let's revolutionize the way you study with Thapa EduHub</p>
+          <div class="footer-icons-div">
+            <!-- github  -->
+            <a
+              class="footer-icons"
+              href="https://github.com/TASHFIQ01791"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <!-- linkedin  -->
+            <a
+              class="footer-icons"
+              href="https://www.linkedin.com/in/tashfiq-taif-609544203/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <!-- youtube  -->
+            <a
+              class="footer-icons"
+              href="https://www.youtube.com/@Black_AndWhite-hq3uw"
+              target="_blank"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+        <!-- footeer 2  -->
+        <div class="footer-2">
+          <h3 class="footer-heading">Home</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </div>
+        <!-- footer -3  -->
+        <div class="footer-3">
+          <h3 class="footer-heading">Courses</h3>
+          <ul>
+            <li><a href="services.html">Courses</a></li>
+            <li><a href="services.html">Courses</a></li>
+            <li><a href="services.html">Courses</a></li>
+          </ul>
+        </div>
+        <!-- footer -4  -->
+        <div class="footer-3">
+          <h3 class="footer-heading">About</h3>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!--  -----  End Footer section -----   -->
+  </body>
+</html>
